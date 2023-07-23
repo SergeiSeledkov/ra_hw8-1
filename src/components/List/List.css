@@ -1,0 +1,18 @@
+.user__list {
+    width: 250px;
+    
+    list-style-type: none;
+    border: 1px solid grey;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.user__name {
+    padding: 5px 20px;
+
+    border-bottom: 1px solid grey;
+}
+
+.user__name:last-child {
+    border-bottom: none;
+}

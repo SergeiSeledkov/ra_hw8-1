@@ -1,0 +1,28 @@
+.details__list {
+    width: 350px;
+    padding: 0 20px;
+    
+    list-style-type: none;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+
+.details__list > * {
+    padding: 10px 0;
+
+    border-bottom: 1px solid grey;
+}
+
+.details__list > li:first-child, li:last-child {
+    border-bottom: none;
+}
+
+.details__img > img {
+    border-radius: 7px;
+    box-shadow: 0 0 5px 3px rgb(0 0 0 / 40%);
+}
+
+.details__name {
+    font-size: 20px;
+    text-align: center;
+}
